@@ -22,36 +22,97 @@ include '../components/layoutHead.php';
                     <div class="titleQ">1.1 ชื่อหน่วยงาน/ องค์กร/ สถานประกอบการ</div>
                     <div class="questionQ">
                         <div class="sendQ"><?= $_SESSION["nameCompany"] ?></div>
+                        <div class="">
+                            <label for="first_name"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">โปรดระบุปีที่องค์กร/สถานประกอบการก่อตั้ง
+                                (พ.ศ.) </label>
+                            <input type="text" id="first_name"
+                                class="w-2/5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
+                        </div>
                     </div>
                 </div>
 
                 <div class="box mb-3">
-                    <div class="titleQ">1.2 หน่วยงาน/ องค์กร ที่ท่านทำงานอยู่เป็นลักษณะใด</div>
+                    <div class="titleQ">1.2 ประเภทองค์กร/ สถานประกอบการ</div>
                     <div class="questionQ">
                         <div class="sendQ">
-                            <div class="flex items-center mb-2">
-                                <input id="P1-2-1" type="radio" value="1" name="p1-2"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-2">
-                                <label for="P1-2-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">1.
-                                    สำนักงานใหญ่</label>
+                            <div class="flex  items-center mb-2">
+                                <div class="">
+                                    <input id="P1-2-1" type="radio" value="1" name="p1-2"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-2">
+                                    <label for="P1-2-1"
+                                        class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">1.
+                                        หน่วยงานภาครัฐ</label>
+
+                                    <div class="flex">
+                                        <div class="mr-2">
+                                            <label for=""
+                                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">สังกัด</label>
+                                            <input type="text" id="p1_2_1t" name="p1_2_1t"
+                                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-2/5 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 p1_2_1t">
+                                        </div>
+                                        <div class="">
+                                            <label for=""
+                                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">กระทรวง</label>
+                                            <input type="text" id="p1_2_2t" name="p1_2_2t"
+                                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-2/5 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 p1_2_2t">
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
                             <div class="flex items-center mb-2">
                                 <input id="P1-2-2" type="radio" value="2" name="p1-2"
                                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-2">
                                 <label for="P1-2-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">2.
-                                    สาขา/ กรม/ กอง</label>
+                                    หน่วยงานรัฐวิสาหกิจ</label>
                             </div>
                             <div class="flex items-center mb-2">
                                 <input id="P1-2-3" type="radio" value="3" name="p1-2"
                                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-2">
                                 <label for="P1-2-3" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">3.
-                                    ไซต์งาน</label>
+                                    หน่วยงานเอกชน </label>
                             </div>
+
+                            <div class="flex items-center mb-2">
+                                <input id="P1-2-4" type="radio" value="4" name="p1-2"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-2">
+                                <label for="P1-2-4" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">4.
+                                    วิสาหกิจขนาดกลางและขนาดย่อม (SME)</label>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <input id="P1_2-5" type="radio" value="5" name="p1_2"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_2">
+                                <label for="P1_2-5" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">5.
+                                    วิสาหกิจชุมชน </label>
+                            </div>
+
+                            <div class="flex items-center mb-2">
+                                <input id="P1_2-6" type="radio" value="6" name="p1_2"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_2">
+                                <label for="P1_2-6" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">6.
+                                    Start-up</label>
+                            </div>
+
+                            <div class="flex items-center mb-2">
+                                <input id="P1_2-7" type="radio" value="7" name="p1_2"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_2">
+                                <label for="P1_2-7" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">7
+                                    . สถาบันการศึกษา</label>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <input id="P1_2-8" type="radio" value="8" name="p1_2"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_2">
+                                <label for="P1_2-8" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">8.
+                                    องค์กรพัฒนาเอกชน (NGO)/ องค์กรระหว่างประเทศ</label>
+                            </div>
+
                             <div class="">
                                 <div class="flex items-center mb-2">
-                                    <input id="P1-2-4" type="radio" value="4" name="p1-2"
+                                    <input id="P1-2-9" type="radio" value="9" name="p1-2"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-2c">
-                                    <label for="P1-2-4"
+                                    <label for="P1-2-9"
                                         class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">4.
                                         อื่น ๆ ระบุ
                                     </label>
@@ -66,157 +127,54 @@ include '../components/layoutHead.php';
                         </div>
                     </div>
                 </div>
+
                 <div class="box mb-3">
-                    <div class="titleQ">1.3 งานที่ท่านทำเป็นงานลักษณะใด</div>
+                    <div class="titleQ">1.3 องค์กร/สถานประกอบการ ของท่านมีขนาดใด </div>
 
                     <div class="questionQ">
                         <div class="sendQ">
+
                             <div class="flex items-center mb-2">
-                                <input id="P1-3-1" type="radio" value="1" name="p1-3"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-3">
-                                <label for="P1-3-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">1.
-                                    งานสำนักงาน</label>
+                                <input id="P1_3-2" type="radio" value="1" name="p1_3"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_3">
+                                <label for="P1_3-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">1.
+                                    ขนาดเล็กมาก (1-20 คน)</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P1-3-2" type="radio" value="2" name="p1-3"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-3">
-                                <label for="P1-3-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">2.
-                                    งานด้านการผลิต </label>
+                                <input id="P1_3-3" type="radio" value="2" name="p1_3"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_3">
+                                <label for="P1_3-3" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                    2. ขนาดเล็ก (21-50 คน)</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P1-3-3" type="radio" value="3" name="p1-3"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-3">
-                                <label for="P1-3-3" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">3.
-                                    งานด้านบริการ</label>
+                                <input id="P1_3-4" type="radio" value="3" name="p1_3"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_3">
+                                <label for="P1_3-4" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">3.
+                                    ขนาดกลาง (51-200 คน)</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P1-3-4" type="radio" value="4" name="p1-3"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-3">
-                                <label for="P1-3-4" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">4.
-                                    งานด้านบริหาร</label>
-                            </div>
-                            <div class="flex items-center mb-2">
-                                <input id="P1-3-5" type="radio" value="5" name="p1-3"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-3">
-                                <label for="P1-3-5" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">5.
-                                    งานด้านวิชาการ </label>
+                                <input id="P1_3-5" type="radio" value="4" name="p1_3"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_3">
+                                <label for="P1_3-5" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">4.
+                                    ขนาดใหญ่ (201-500 คน)</label>
                             </div>
 
                             <div class="flex items-center mb-2">
-                                <input id="P1-3-6" type="radio" value="6" name="p1-3"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-3">
-                                <label for="P1-3-6" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">6.
-                                    เจ้าของธุรกิจ/ กิจการ</label>
+                                <input id="P1_3-6" type="radio" value="5" name="p1_3"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_3">
+                                <label for="P1_3-6" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">5.
+                                    ขนาดใหญ่มาก (501–1,000 คน)</label>
                             </div>
 
                             <div class="flex items-center mb-2">
-                                <input id="P1-3-7" type="radio" value="7" name="p1-3"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-3">
-                                <label for="P1-3-7" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">7
-                                    .
-                                    นักเรียน/นักศึกษา</label>
-                            </div>
-                            <div class="flex items-center mb-2">
-                                <input id="P1-3-8" type="radio" value="8" name="p1-3"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-3">
-                                <label for="P1-3-8" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">8.
-                                    ไม่ได้ทำงาน</label>
-                            </div>
-
-                            <div class="">
-                                <div class="flex items-center mb-2">
-                                    <input id="P1-3-9" type="radio" value="9" name="p1-3"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-3c">
-                                    <label for="P1-3-9"
-                                        class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">9.
-                                        อื่น ๆ ระบุ
-                                    </label>
-                                    <br>
-                                </div>
-                                <div class="mb-6">
-                                    <input type="text" id="p1-3t" name="p1-3t"
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-2/5 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 p1-3t">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="box mb-3">
-                    <div class="titleQ">1.4 ตั้งแต่ท่านเริ่มทำงานครั้งแรกของชีวิตการทำงานจนถึงการทำงานในปัจจุบัน
-                        ท่านเคยลาออก/เปลี่ยนงานจากองค์กร/สถานประกอบการมาแล้วกี่ครั้ง </div>
-
-                    <div class="questionQ">
-                        <div class="sendQ">
-                            <div class="flex items-center mb-2">
-                                <input id="P1-4-1" type="radio" value="1" name="p1-4"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-4">
-                                <label for="P1-4-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">0
-                                    =
-                                    ไม่เคยลาออก/เปลี่ยนงาน </label>
-                            </div>
-                            <div class="flex items-center mb-2">
-                                <input id="P1-4-2" type="radio" value="2" name="p1-4"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-4">
-                                <label for="P1-4-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">1
-                                    = 1
-                                    ครั้ง </label>
-                            </div>
-                            <div class="flex items-center mb-2">
-                                <input id="P1-4-3" type="radio" value="3" name="p1-4"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-4">
-                                <label for="P1-4-3" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">2
-                                    = 2
-                                    ครั้ง</label>
-                            </div>
-                            <div class="flex items-center mb-2">
-                                <input id="P1-4-4" type="radio" value="4" name="p1-4"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-4">
-                                <label for="P1-4-4" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">3
-                                    = 3
-                                    ครั้ง</label>
-                            </div>
-                            <div class="flex items-center mb-2">
-                                <input id="P1-4-5" type="radio" value="5" name="p1-4"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-4">
-                                <label for="P1-4-5" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">4
-                                    = 4
-                                    ครั้ง</label>
-                            </div>
-
-                            <div class="flex items-center mb-2">
-                                <input id="P1-4-6" type="radio" value="6" name="p1-4"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-4">
-                                <label for="P1-4-6" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">5
-                                    = 5
-                                    ครั้ง </label>
-                            </div>
-
-                            <div class="flex items-center mb-2">
-                                <input id="P1-4-7" type="radio" value="7" name="p1-4"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-4">
-                                <label for="P1-4-7" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">6
-                                    =
-                                    ตั้งแต่ 6 – 8 ครั้ง</label>
-                            </div>
-                            <div class="flex items-center mb-2">
-                                <input id="P1-4-8" type="radio" value="8" name="p1-4"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-4">
-                                <label for="P1-4-8" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">9
-                                    =
-                                    ตั้งแต่ 9 – 11 ครั้ง</label>
+                                <input id="P1_3-7" type="radio" value="6" name="p1_3"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_3">
+                                <label for="P1_3-7" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">6.
+                                    ขนาดใหญ่มากที่สุด (1,001 คนขึ้นไป)</label>
                             </div>
 
 
-                            <div class="flex items-center mb-2">
-                                <input id="P1-4-9" type="radio" value="9" name="p1-4"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-4c">
-                                <label for="P1-4-9" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">12
-                                    =
-                                    ตั้งแต่ 12 ครั้งขึ้นไป
-                                </label>
-                                <br>
-                            </div>
+
 
 
 
