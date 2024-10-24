@@ -254,6 +254,297 @@ include '../components/layoutHead.php';
                                 </td>
                             </tr>
 
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.2.3 สูญเสียทรัพยากรด้านวัสดุสิ้นเปลืองลดน้อยลง
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-3" value="1" class="p4-2-3">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-3" value="2" class="p4-2-3">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-3" value="3" class="p4-2-3">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-3" value="4" class="p4-2-3">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-3" value="5" class="p4-2-3">
+
+                                </td>
+                            </tr>
+
+                            <tr
+                                class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.3 การส่งมอบสินค้าอย่างถูกต้อง ถูกสถานที่ ถูกเวลา (Delivery)
+                                </th>
+
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.3.1 ทำงานเสร็จตรงตามเวลา
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-3-1" value="1" class="p4-3-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-3-1" value="2" class="p4-3-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-3-1" value="3" class="p4-3-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-3-1" value="4" class="p4-3-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-3-1" value="5" class="p4-3-1">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.3.2 สามารถผลิตสินค้าได้ตามจำนวนและคุณภาพตามที่ลูกค้าสั่ง
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-3-2" value="1" class="p4-3-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-3-2" value="2" class="p4-3-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-3-2" value="3" class="p4-3-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-3-2" value="4" class="p4-3-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-3-2" value="5" class="p4-3-2">
+
+                                </td>
+                            </tr>
+
+
+                            <tr
+                                class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.4 สภาพแวดล้อมในที่ทำงานปลอดภัยขึ้น (Safety)
+                                </th>
+
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.4.1 อุบัติเหตุในการทำงานลดน้อยลง
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-1" value="1" class="p4-4-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-1" value="2" class="p4-4-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-1" value="3" class="p4-4-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-1" value="4" class="p4-4-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-1" value="5" class="p4-4-1">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.4.2 มีสภาพแวดล้อมที่ปลอดภัยในที่ทำงาน (แสงสว่าง ป้ายเตือน การระบายอากาศ)
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="1" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="2" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="3" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="4" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="5" class="p4-4-2">
+
+                                </td>
+                            </tr>
+
+                            <tr
+                                class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.5 พนักงานมีขวัญกำลังใจที่ดีขึ้น (Moral)
+                                </th>
+
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.5.1 พนักงานลาออกลดน้อยลง
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-1" value="1" class="p4-4-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-1" value="2" class="p4-4-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-1" value="3" class="p4-4-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-1" value="4" class="p4-4-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-1" value="5" class="p4-4-1">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.5.2 พนักงานลาป่วย ลากิจ น้อยลง
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="1" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="2" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="3" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="4" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="5" class="p4-4-2">
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.5.2 พนักงานลาป่วย ลากิจ น้อยลง
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="1" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="2" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="3" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="4" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="5" class="p4-4-2">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.5.2 พนักงานลาป่วย ลากิจ น้อยลง
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="1" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="2" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="3" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="4" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="5" class="p4-4-2">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.5.2 พนักงานลาป่วย ลากิจ น้อยลง
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="1" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="2" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="3" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="4" class="p4-4-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-4-2" value="5" class="p4-4-2">
+
+                                </td>
+                            </tr>
+
+
                         </tbody>
                     </table>
                 </div>

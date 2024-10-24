@@ -39,7 +39,7 @@ include '../components/layoutHead.php';
                             <div class="flex  items-center mb-2">
                                 <div class="">
                                     <input id="P1-2-1" type="radio" value="1" name="p1-2"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-2">
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-2a">
                                     <label for="P1-2-1"
                                         class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">1.
                                         หน่วยงานภาครัฐ</label>
@@ -47,7 +47,8 @@ include '../components/layoutHead.php';
                                     <div class="flex">
                                         <div class="mr-2">
                                             <label for=""
-                                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">สังกัด</label>
+                                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">สังกัด
+                                                กรม</label>
                                             <input type="text" id="p1_2_1t" name="p1_2_1t"
                                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-2/5 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 p1_2_1t">
                                         </div>
