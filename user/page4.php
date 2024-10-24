@@ -4,19 +4,19 @@ include '../config/connect.php';
 include '../components/layoutHead.php';
 ?>
 <script>
-$(function() {
-    $("#slider-range-max").slider({
-        range: "max",
-        min: 0,
-        max: 10,
-        value: 0,
-        step: 0.1,
-        slide: function(event, ui) {
-            $("#amount").val(ui.value);
-        }
+    $(function() {
+        $("#slider-range-max").slider({
+            range: "max",
+            min: 0,
+            max: 10,
+            value: 0,
+            step: 0.1,
+            slide: function(event, ui) {
+                $("#amount").val(ui.value);
+            }
+        });
+        $("#amount").val($("#slider-range-max").slider("value"));
     });
-    $("#amount").val($("#slider-range-max").slider("value"));
-});
 </script>
 <div class="container">
     <div class="col-md-12">
@@ -145,27 +145,114 @@ $(function() {
                                     4.1.3 งานซ่อม, จำนวนของเสีย เปอร์เซ็นต์ Defect ลดลง
                                 </th>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-1" value="1" class="p4-1">
+                                    <input type="radio" name="p4-1-3" value="1" class="p4-1-3">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-1" value="2" class="p4-1">
+                                    <input type="radio" name="p4-1-3" value="2" class="p4-1-3">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-1" value="3" class="p4-1">
+                                    <input type="radio" name="p4-1-3" value="3" class="p4-1-3">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-1" value="4" class="p4-1">
+                                    <input type="radio" name="p4-1-3" value="4" class="p4-1-3">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-1" value="5" class="p4-1">
+                                    <input type="radio" name="p4-1-3" value="5" class="p4-1-3">
 
                                 </td>
                             </tr>
 
+                            <tr
+                                class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.2 ลดต้นทุน (Cost)
+                                </th>
+
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.2.1 สูญเสียทรัพยากรด้านวัตถุดิบลดน้อยลง
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-1" value="1" class="p4-2-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-1" value="2" class="p4-2-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-1" value="3" class="p4-2-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-1" value="4" class="p4-2-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-1" value="5" class="p4-2-1">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.2.2 สูญเสียทรัพยากรด้านพลังงานลดน้อยลง
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-2" value="1" class="p4-2-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-2" value="2" class="p4-2-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-2" value="3" class="p4-2-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-2" value="4" class="p4-2-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-2" value="5" class="p4-2-2">
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.2.3 สูญเสียทรัพยากรด้านวัสดุสิ้นเปลืองลดน้อยลง
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-3" value="1" class="p4-2-3">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-3" value="2" class="p4-2-3">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-3" value="3" class="p4-2-3">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-3" value="4" class="p4-2-3">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-2-3" value="5" class="p4-2-3">
+
+                                </td>
+                            </tr>
 
                         </tbody>
                     </table>
