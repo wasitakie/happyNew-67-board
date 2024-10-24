@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+}
+
+.thaiFont {
+  font-family: "Prompt", sans-serif;
+}
+
+.head {
+  font-size: 20px;
+  font-weight: bold;
+margin-bottom: 1rem;
+}
+
+.head1 {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.head2 {
+  display: block;
+  border: 1pt solid #b8b7b7;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  font-weight: bold;
+margin-bottom: 1rem;
+}
+
+
+.logoPic {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  
+}
+
+.logoPic img {
+  text-align: center;
+  width: 50px;
+  height: auto;
+margin: auto;
+} 
+.textHappy td {
+  font-size: 12px;
+}
+
+.textHappy td img {
+  width: 40px;
+}
+
+.box {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border: 1pt solid #b8b7b7;
+
+  .titleQ {
+     font-weight: bold;
+     margin-bottom: 1rem;
+  }
+
+  .questionQ {
+    padding-left: 1rem;
+  }
+}
