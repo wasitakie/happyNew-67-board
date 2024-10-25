@@ -28,7 +28,7 @@ $(function() {
             <div class="head">คำชี้แจงในการตอบแบบสำรวจ</div>
             <div class="head1">ให้ใส่เครื่องหมาย <i class="fa-solid fa-check"></i> ในช่อง <i
                     class="fa-regular fa-square-full"></i> ทุกข้อที่ท่านเลือก </div>
-            <div class="head2">ส่วนที่ 3: สุขภาวะและความอยู่ดีมีสุข (Health & Wellness) ข้อคำถามจำนวน 26 ข้อ</div>
+            <div class="head2">ส่วนที่ 3: การเพิ่มผลิตภาพ ในองค์กรแห่งความสุข (ข้อคำถามจำนวน 4 ข้อ)</div>
 
 
             <form action="page3Check.php" method="post">

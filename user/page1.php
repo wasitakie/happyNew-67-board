@@ -25,8 +25,8 @@ include '../components/layoutHead.php';
                         <div class="">
                             <label for="first_name"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">โปรดระบุปีที่องค์กร/สถานประกอบการก่อตั้ง
-                                (พ.ศ.)55</label>
-                            <input type="text" id="first_name"
+                                (พ.ศ.)</label>
+                            <input type="text" id="first_name" name="first_name"
                                 class="w-2/5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
                         </div>
                     </div>
@@ -83,28 +83,28 @@ include '../components/layoutHead.php';
                                     วิสาหกิจขนาดกลางและขนาดย่อม (SME)</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P1_2-5" type="radio" value="5" name="p1_2"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_2">
+                                <input id="P1_2-5" type="radio" value="5" name="p1-2"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-2">
                                 <label for="P1_2-5" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">5.
                                     วิสาหกิจชุมชน </label>
                             </div>
 
                             <div class="flex items-center mb-2">
-                                <input id="P1_2-6" type="radio" value="6" name="p1_2"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_2">
+                                <input id="P1_2-6" type="radio" value="6" name="p1-2"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-2">
                                 <label for="P1_2-6" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">6.
                                     Start-up</label>
                             </div>
 
                             <div class="flex items-center mb-2">
-                                <input id="P1_2-7" type="radio" value="7" name="p1_2"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_2">
+                                <input id="P1_2-7" type="radio" value="7" name="p1-2"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-2">
                                 <label for="P1_2-7" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">7
                                     . สถาบันการศึกษา</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P1_2-8" type="radio" value="8" name="p1_2"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_2">
+                                <input id="P1_2-8" type="radio" value="8" name="p1-2"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1-2">
                                 <label for="P1_2-8" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">8.
                                     องค์กรพัฒนาเอกชน (NGO)/ องค์กรระหว่างประเทศ</label>
                             </div>
