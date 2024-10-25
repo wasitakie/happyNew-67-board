@@ -141,7 +141,7 @@ include '../components/layoutHead.php';
                         <div class="sendQ">
                             <div class="flex items-center mb-2">
                                 <div class="mb-6 flex">
-                                    <input type="text" id="default-input" name="2_4t"
+                                    <input type="text" id="p2_4t" name="p2_4t"
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-2/5 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 2_4t">
 
                                 </div>

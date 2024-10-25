@@ -76,7 +76,7 @@ $(document).ready(function () {
       return false;
     }
 
-    if ($("p2-5c:checked").length !== "" && $("#p2-5t").val() == "") {
+    if ($(".p2-5c:checked").length != "" && $(".p2-5t").val() == "") {
       alert("2.5 อื่น ๆ ระบุ....");
       $("#p2-5t").focus();
       return false;
@@ -88,9 +88,9 @@ $(document).ready(function () {
       return false;
     }
 
-    if ($(".p2-6c:checked").length !== "" && $("#p2-6t").val() == "") {
-      alert("2.6 อื่น ๆ ระบุ....)");
-      $(".p2-5").focus();
+    if ($(".p2-6c:checked").length != "" && $(".p2-6t").val() == "") {
+      alert("2.6 อื่น ๆ ระบุ....");
+      $("#p2-6t").focus();
       return false;
     }
 

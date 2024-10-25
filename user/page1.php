@@ -22,11 +22,11 @@ include '../components/layoutHead.php';
                     <div class="titleQ">1.1 ชื่อหน่วยงาน/ องค์กร/ สถานประกอบการ</div>
                     <div class="questionQ">
                         <div class="sendQ"><?= $_SESSION["nameCompany"] ?></div>
-                        <div class="">
+                        <div class="mt-3">
                             <label for="first_name"
                                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">โปรดระบุปีที่องค์กร/สถานประกอบการก่อตั้ง
                                 (พ.ศ.)</label>
-                            <input type="text" id="first_name" name="first_name"
+                            <input type="text" id="p1-1t" name="p1-1t"
                                 class="w-2/5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
                         </div>
                     </div>
@@ -144,7 +144,7 @@ include '../components/layoutHead.php';
                             <div class="flex items-center mb-2">
                                 <input id="P1_3-3" type="radio" value="2" name="p1_3"
                                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p1_3">
-                                <label for="P1_3-3" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                <label for="P1_3-3" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                                     2. ขนาดเล็ก (21-50 คน)</label>
                             </div>
                             <div class="flex items-center mb-2">

@@ -4,19 +4,19 @@ include '../config/connect.php';
 include '../components/layoutHead.php';
 ?>
 <script>
-    $(function() {
-        $("#slider-range-max").slider({
-            range: "max",
-            min: 0,
-            max: 10,
-            value: 0,
-            step: 0.1,
-            slide: function(event, ui) {
-                $("#amount").val(ui.value);
-            }
-        });
-        $("#amount").val($("#slider-range-max").slider("value"));
+$(function() {
+    $("#slider-range-max").slider({
+        range: "max",
+        min: 0,
+        max: 10,
+        value: 0,
+        step: 0.1,
+        slide: function(event, ui) {
+            $("#amount").val(ui.value);
+        }
     });
+    $("#amount").val($("#slider-range-max").slider("value"));
+});
 </script>
 <div class="container">
     <div class="col-md-12">
@@ -194,14 +194,14 @@ include '../components/layoutHead.php';
                                 <input id="p3-4-3" type="radio" value="3" name="p3-4"
                                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p3-4">
                                 <label for="p3-4-3" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">3.
-                                    10,001 -50,000 บาท</label>
+                                    10,001 - 50,000 บาท</label>
                             </div>
 
                             <div class="flex items-center mb-2">
                                 <input id="p3-4-4" type="radio" value="4" name="p3-4"
                                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p3-4">
                                 <label for="p3-4-4" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">4.
-                                    50,001- 100,000 บาท
+                                    50,001 - 100,000 บาท
                                 </label>
                                 <br>
                             </div>
@@ -210,7 +210,7 @@ include '../components/layoutHead.php';
                                 <input id="p3-4-5" type="radio" value="5" name="p3-4"
                                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p3-4">
                                 <label for="p3-4-5" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">5.
-                                    100,001- 500,000 บาท
+                                    100,001 - 500,000 บาท
                                 </label>
                                 <br>
                             </div>
@@ -220,7 +220,7 @@ include '../components/layoutHead.php';
                                 <input id="p3-4-6" type="radio" value="6" name="p3-4"
                                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p3-4">
                                 <label for="p3-4-6" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">6.
-                                    100,001- 500,000 บาท
+                                    100,001 - 500,000 บาท
                                 </label>
                                 <br>
                             </div>
@@ -228,7 +228,7 @@ include '../components/layoutHead.php';
                                 <input id="p3-4-7" type="radio" value="7" name="p3-4"
                                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p3-4">
                                 <label for="p3-4-7" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">7.
-                                    100,001- 500,000 บาท
+                                    100,001 - 500,000 บาท
                                 </label>
                                 <br>
                             </div>
@@ -236,7 +236,7 @@ include '../components/layoutHead.php';
                                 <input id="p3-4-8" type="radio" value="8" name="p3-4"
                                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p3-4">
                                 <label for="p3-4-8" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">8.
-                                    100,001- 500,000 บาท
+                                    100,001 - 500,000 บาท
                                 </label>
                                 <br>
                             </div>

@@ -1,7 +1,7 @@
 <?php
 session_start();
 include '../config/connect.php';
-$page4 = array('', $_POST["p27"], $_POST["p28"], $_POST["p29"], $_POST["p30"], $_POST["p31"], $_POST["p32"], $_POST["p33"], $_POST["p34"], $_POST["p35"], $_POST["p36"]);
+$page4 = array('', $_POST["p4-1-1"], $_POST["p4-1-2"], $_POST["p4-1-3"], $_POST["p4-2-1"], $_POST["p4-2-2"], $_POST["p4-2-3"], $_POST["p4-3-1"], $_POST["p4-3-2"], $_POST["p4-4-1"], $_POST["p4-4-2"], $_POST["p4-5-1"], $_POST["p4-5-2"], $_POST["p4-5-3"], $_POST["p4-5-4"], $_POST["p4-5-5"], $_POST["p4-6-1"], $_POST["p4-6-2"], $_POST["p4-7-1"], $_POST["p4-7-2"]);
 
 $sumData = array('', '0', '25', '50', '75', '100');
 
