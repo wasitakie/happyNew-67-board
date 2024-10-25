@@ -1,4 +1,6 @@
 <?php
+session_start();
+include '../session/admin.php';
 include '../config/connect.php';
 include '../components/layoutHead.php';
 ?>
@@ -79,10 +81,11 @@ include '../components/layoutHead.php';
                                         <?= $r["cp_sector"] ?>
                                     </td>
                                     <td class="px-6 py-4 text-center">
-                                        <?= $myClass->countGroups($r["cp_id"]); ?>
+                                        <?= $myClass->countGroups($r["cp_code"]); ?>
                                     </td>
                                     <td class="px-6 py-4 text-center">
-                                        <a href="excel.php?id=<?= $r["cp_id"]; ?>" target="_blank">Excel <i class="bi bi-printer"></i></a>
+                                        <a href="excel.php?id=<?= $r["cp_code"]; ?>" target="_blank">Excel <i
+                                                class="bi bi-printer"></i></a>
                                     </td>
                                     <td class="px-6 py-4 text-center">
                                         <label class="inline-flex items-center me-5 cursor-pointer text-center">

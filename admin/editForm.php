@@ -1,4 +1,6 @@
 <?php
+session_start();
+include '../session/admin.php';
 include '../config/connect.php';
 $id = $_POST["idUpData"];
 $se = $con->prepare(" SELECT* FROM company WHERE cp_id = ? ");

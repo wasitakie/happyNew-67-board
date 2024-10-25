@@ -1,22 +1,23 @@
 <?php
 session_start();
+include '../session/user.php';
 include '../config/connect.php';
 include '../components/layoutHead.php';
 ?>
 <script>
-$(function() {
-    $("#slider-range-max").slider({
-        range: "max",
-        min: 0,
-        max: 10,
-        value: 0,
-        step: 0.1,
-        slide: function(event, ui) {
-            $("#amount").val(ui.value);
-        }
+    $(function() {
+        $("#slider-range-max").slider({
+            range: "max",
+            min: 0,
+            max: 10,
+            value: 0,
+            step: 0.1,
+            slide: function(event, ui) {
+                $("#amount").val(ui.value);
+            }
+        });
+        $("#amount").val($("#slider-range-max").slider("value"));
     });
-    $("#amount").val($("#slider-range-max").slider("value"));
-});
 </script>
 <div class="container">
     <div class="col-md-12">

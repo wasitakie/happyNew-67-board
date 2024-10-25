@@ -1,5 +1,6 @@
 <?php
 session_start();
+include '../session/user.php';
 include '../config/connect.php';
 $page3 = array('', $_POST["p3-1"], $_POST["p3-2"], $_POST["p3-3"], $_POST["p3-4"]);
 

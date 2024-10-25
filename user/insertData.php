@@ -1,5 +1,6 @@
 <?php
 session_start();
+include '../session/user.php';
 include '../config/connect.php';
 date_default_timezone_set('Asia/Bangkok');
 $datetime = date("d/m/") . (date("Y") + 543) . " " . date("H:i:s");

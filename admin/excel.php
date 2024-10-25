@@ -30,88 +30,75 @@ header('Content-Disposition: attachment; filename="' . $_GET["id"] . '.xls"'); #
             <td>ชื่อบริษัท</td>
             <td>รหัสบริษัท</td>
             <td>Sector</td>
+            <td>p1.1t</td>
             <td>p1.2</td>
+            <td>p1.2.1t</td>
+            <td>p1.2.2t</td>
+            <td>p1_2t</td>
             <td>p1_3</td>
-            <td>p1_3t</td>
-            <td>p1_4</td>
+
 
             <td>sex</td>
             <td>age</td>
             <td>q2_3</td>
             <td>q2_3t</td>
-            <td>q2_4</td>
-            <td>q2_5t</td>
+            <td>q2_4t</td>
 
 
-            <td>weight</td>
-            <td>height</td>
-            <td>waist</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>10</td>
-            <td>11</td>
+
+            <td>2_5_1</td>
+            <td>2_5_2</td>
+            <td>2_5_3</td>
+            <td>2_5_4</td>
+            <td>2_5_5</td>
+            <td>2_5_6</td>
+            <td>2_5_7</td>
+            <td>2_5_8</td>
+            <td>2_5_9</td>
+            <td>2_5_10</td>
+            <td>2_5_11</td>
+            <td>2_5t</td>
             <!-- <td>cv1</td> -->
 
-            <td>12</td>
-            <td>13</td>
-            <td>14</td>
-            <td>15</td>
-            <td>16</td>
-            <!-- <td>cv2</td> -->
-
-            <td>17</td>
-            <td>18</td>
-            <td>19</td>
-            <td>20</td>
-            <td>21</td>
-            <!-- <td>cv3</td> -->
-
-            <td>22</td>
-            <td>23</td>
-            <td>24</td>
-            <td>25</td>
-            <td>26</td>
-            <!-- <td>cv4</td> -->
-
-            <td>27</td>
-            <td>28</td>
-            <td>29</td>
-            <!-- <td>cv5</td> -->
-
-            <td>30</td>
-            <td>31</td>
-            <td>32</td>
-            <td>33</td>
-            <td>34</td>
-            <td>35</td>
-            <!-- <td>cv6</td> -->
-
-            <td>36</td>
-            <td>37</td>
-            <td>38</td>
-            <!-- <td>cv7</td> -->
-
-            <td>39</td>
-            <td>40</td>
-            <td>41</td>
-            <td>42</td>
-            <!-- <td>cv8</td> -->
-
-            <td>43</td>
-            <td>44</td>
-            <td>45</td>
-            <td>46</td>
+            <td>2_6_1</td>
+            <td>2_6_2</td>
+            <td>2_6_3</td>
+            <td>2_6_4</td>
+            <td>2_6_5</td>
+            <td>2_6_6</td>
+            <td>2_6_7</td>
+            <td>2_6_8</td>
+            <td>2_6_9</td>
+            <td>2_6_10</td>
+            <td>2_6_11</td>
+            <td>2_6_12</td>
+            <td>2_6t</td>
 
 
+            <td>3_1</td>
+            <td>3_2</td>
+            <td>3_3</td>
+            <td>3_4</td>
 
-
-
+            <td>4_1_1</td>
+            <td>4_1_2</td>
+            <td>4_1_3</td>
+            <td>4_2_1</td>
+            <td>4_2_2</td>
+            <td>4_2_3</td>
+            <td>4_3_1</td>
+            <td>4_3_2</td>
+            <td>4_4_1</td>
+            <td>4_4_2</td>
+            <td>4_5_1</td>
+            <td>4_5_2</td>
+            <td>4_5_3</td>
+            <td>4_5_4</td>
+            <td>4_5_5</td>
+            <td>4_6_1</td>
+            <td>4_6_2</td>
+            <td>4_7_1</td>
+            <td>4_7_2</td>
             <td>date_time</td>
             <td>idCode</td>
 
@@ -120,7 +107,7 @@ header('Content-Disposition: attachment; filename="' . $_GET["id"] . '.xls"'); #
         <?php
         include '../config/connect.php';
 
-        $se = $con->prepare(" select* from insert_data where data_id = ? ");
+        $se = $con->prepare(" select* from insert_data where cp_code = ? ");
         $se->execute([$_GET["id"]]);
 
         $n = 1;
@@ -137,78 +124,81 @@ header('Content-Disposition: attachment; filename="' . $_GET["id"] . '.xls"'); #
 	<td>' . $num["cp_code"] . '</td>
 	<td>' . $num["cp_sector"] . '</td>
 
-	<td>' . $num["p1_2"] . '</td>
+
+    <td>' . $num["p1_1t"] . '</td>
+    <td>' . $num["p1_2"] . '</td>
+	<td>' . $num["p1_2_1t"] . '</td>
+    <td>' . $num["p1_2_2t"] . '</td>
+    <td>' . $num["p1_2t"] . '</td>
 	<td>' . $num["p1_3"] . '</td>
-    	<td>' . $num["p1_3t"] . '</td>
-	<td>' . $num["p1_4"] . '</td>
-	
+   
 
 	<td>' . $num["sex"] . '</td>
 	<td>' . $num["age"] . '</td>
 	<td>' . $num["p2_3"] . '</td>
     <td>' . $num["p2_3t"] . '</td>
-	<td>' . $num["p2_4"] . '</td>
-	<td>' . $num["p2_5t"] . '</td>
+	<td>' . $num["p2_4t"] . '</td>
 	
 	
 
-	<td>' . $num["weight"] . '</td>
-	<td>' . $num["height"] . '</td>
-	<td>' . $num["waist"] . '</td>
-	<td>' . $num["p2"] . '</td>
-	<td>' . $num["p3"] . '</td>
-	<td>' . $num["p4"] . '</td>
-	<td>' . $num["p5"] . '</td>
-	<td>' . $num["p6"] . '</td>
+	
+	<td>' . $num["p2_5_1"] . '</td>
+    <td>' . $num["p2_5_2"] . '</td>
+	<td>' . $num["p2_5_3"] . '</td>
+	<td>' . $num["p2_5_4"] . '</td>
+	<td>' . $num["p2_5_5"] . '</td>
+	<td>' . $num["p2_5_6"] . '</td>
 	
 
-	<td>' . $num["p7"] . '</td>
-	<td>' . $num["p8"] . '</td>
-	<td>' . $num["p9"] . '</td>
-	<td>' . $num["p10"] . '</td>
-	<td>' . $num["p11"] . '</td>
+	<td>' . $num["p2_5_7"] . '</td>
+	<td>' . $num["p2_5_8"] . '</td>
+	<td>' . $num["p2_5_9"] . '</td>
+	<td>' . $num["p2_5_10"] . '</td>
+	<td>' . $num["p2_5_11"] . '</td>
+    <td>' . $num["p2_5t"] . '</td>
 
-	<td>' . $num["p12"] . '</td>
-	<td>' . $num["p13"] . '</td>
-	<td>' . $num["p14"] . '</td>
-	<td>' . $num["p15"] . '</td>
-	<td>' . $num["p16"] . '</td>
+    <td>' . $num["p2_6_1"] . '</td>
+    <td>' . $num["p2_6_2"] . '</td>
+	<td>' . $num["p2_6_3"] . '</td>
+	<td>' . $num["p2_6_4"] . '</td>
+	<td>' . $num["p2_6_5"] . '</td>
+	<td>' . $num["p2_6_6"] . '</td>
+	
 
-	<td>' . $num["p17"] . '</td>
-	<td>' . $num["p18"] . '</td>
-	<td>' . $num["p19"] . '</td>
-	<td>' . $num["p20"] . '</td>
-	<td>' . $num["p21"] . '</td>
+	<td>' . $num["p2_6_7"] . '</td>
+	<td>' . $num["p2_6_8"] . '</td>
+	<td>' . $num["p2_6_9"] . '</td>
+	<td>' . $num["p2_6_10"] . '</td>
+	<td>' . $num["p2_6_11"] . '</td>
+    <td>' . $num["p2_6_12"] . '</td>
+    <td>' . $num["p2_6t"] . '</td>
 
-	<td>' . $num["p22"] . '</td>
-	<td>' . $num["p23"] . '</td>
-	<td>' . $num["p24"] . '</td>
+    <td>' . $num["p3_1"] . '</td>
+    <td>' . $num["p3_2"] . '</td>
+    <td>' . $num["p3_3"] . '</td>
+    <td>' . $num["p3_4"] . '</td>
 
-	<td>' . $num["p25"] . '</td>
-	<td>' . $num["p26"] . '</td>
-	<td>' . $num["p27"] . '</td>
-	<td>' . $num["p28"] . '</td>
-	<td>' . $num["p29"] . '</td>
-	<td>' . $num["p30"] . '</td>
+     <td>' . $num["p4_1_1"] . '</td>
+     <td>' . $num["p4_1_2"] . '</td>
+    <td>' . $num["p4_1_3"] . '</td>
+    <td>' . $num["p4_2_1"] . '</td>
+    <td>' . $num["p4_2_2"] . '</td>
+    <td>' . $num["p4_2_3"] . '</td>
+    <td>' . $num["p4_3_1"] . '</td>
+<td>' . $num["p4_3_2"] . '</td>
+<td>' . $num["p4_4_1"] . '</td>
+<td>' . $num["p4_4_2"] . '</td>
+<td>' . $num["p4_5_1"] . '</td>
+<td>' . $num["p4_5_2"] . '</td>
+<td>' . $num["p4_5_3"] . '</td>
+<td>' . $num["p4_5_4"] . '</td>
+<td>' . $num["p4_5_5"] . '</td>
+<td>' . $num["p4_6_1"] . '</td>
+<td>' . $num["p4_6_2"] . '</td>
+<td>' . $num["p4_7_1"] . '</td>
+<td>' . $num["p4_7_2"] . '</td>
 
-	<td>' . $num["p31"] . '</td>
-	<td>' . $num["p32"] . '</td>
-	<td>' . $num["p33"] . '</td>
 
-	<td>' . $num["p34"] . '</td>
-	<td>' . $num["p35"] . '</td>
-	<td>' . $num["p36"] . '</td>
-	<td>' . $num["p37"] . '</td>
-
-	<td>' . $num["p38"] . '</td>
-	<td>' . $num["p39"] . '</td>
-	<td>' . $num["p40"] . '</td>
-	<td>' . $num["p41"] . '</td>
-	<td>' . $num["p42"] . '</td>
-	<td>' . $num["p43"] . '</td>
-	<td>' . $num["p44"] . '</td>
-	<td>' . $num["p45"] . '</td>
-	<td>' . $num["p46"] . '</td>
 	
 
 	

@@ -1,5 +1,6 @@
 <?php
 session_start();
+include '../session/admin.php';
 include '../config/connect.php';
 
 if ($_GET["g"]  == "addNew") {
