@@ -4,19 +4,19 @@ include '../config/connect.php';
 include '../components/layoutHead.php';
 ?>
 <script>
-    $(function() {
-        $("#slider-range-max").slider({
-            range: "max",
-            min: 0,
-            max: 10,
-            value: 0,
-            step: 0.1,
-            slide: function(event, ui) {
-                $("#amount").val(ui.value);
-            }
-        });
-        $("#amount").val($("#slider-range-max").slider("value"));
+$(function() {
+    $("#slider-range-max").slider({
+        range: "max",
+        min: 0,
+        max: 10,
+        value: 0,
+        step: 0.1,
+        slide: function(event, ui) {
+            $("#amount").val(ui.value);
+        }
     });
+    $("#amount").val($("#slider-range-max").slider("value"));
+});
 </script>
 <div class="container">
     <div class="col-md-12">
@@ -40,7 +40,7 @@ include '../components/layoutHead.php';
 
                 <div class="relative overflow-x-auto shadow-md sm:rounded-lg mt-5 mb-5">
                     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                        <thead class="text-md text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                             <tr>
                                 <th scope="col" class="px-6 py-3 text-center">
                                     ด้านที่ประสบผลสำเร็จ
@@ -81,12 +81,12 @@ include '../components/layoutHead.php';
                             <tr
                                 class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
                                 <th scope="row"
-                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    class="px-6 py-4  font-bold text-xl text-gray-900 whitespace-nowrap dark:text-white">
                                     4.1 สร้างผลผลิตที่มีคุณภาพ (Quality)
                                 </th>
 
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.1.1 ความพึงพอใจของลูกค้าในด้านคุณภาพและบริการเพิ่มขึ้น
@@ -112,7 +112,7 @@ include '../components/layoutHead.php';
 
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.1.2 เสียงสะท้อนจากลูกค้าในเชิงลบ ลดน้อยลง
@@ -139,7 +139,7 @@ include '../components/layoutHead.php';
                                 </td>
                             </tr>
 
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.1.3 งานซ่อม, จำนวนของเสีย เปอร์เซ็นต์ Defect ลดลง
@@ -169,12 +169,12 @@ include '../components/layoutHead.php';
                             <tr
                                 class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
                                 <th scope="row"
-                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    class="px-6 py-4  font-bold text-xl text-gray-900 whitespace-nowrap dark:text-white">
                                     4.2 ลดต้นทุน (Cost)
                                 </th>
 
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.2.1 สูญเสียทรัพยากรด้านวัตถุดิบลดน้อยลง
@@ -200,7 +200,7 @@ include '../components/layoutHead.php';
 
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.2.2 สูญเสียทรัพยากรด้านพลังงานลดน้อยลง
@@ -227,7 +227,7 @@ include '../components/layoutHead.php';
                                 </td>
                             </tr>
 
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.2.3 สูญเสียทรัพยากรด้านวัสดุสิ้นเปลืองลดน้อยลง
@@ -254,42 +254,17 @@ include '../components/layoutHead.php';
                                 </td>
                             </tr>
 
-                            <tr>
-                                <th scope="row"
-                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    4.2.3 สูญเสียทรัพยากรด้านวัสดุสิ้นเปลืองลดน้อยลง
-                                </th>
-                                <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-2-3" value="1" class="p4-2-3">
 
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-2-3" value="2" class="p4-2-3">
-
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-2-3" value="3" class="p4-2-3">
-
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-2-3" value="4" class="p4-2-3">
-
-                                </td>
-                                <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-2-3" value="5" class="p4-2-3">
-
-                                </td>
-                            </tr>
 
                             <tr
                                 class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
                                 <th scope="row"
-                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    class="px-6 py-4 font-bold text-xl text-gray-900 whitespace-nowrap dark:text-white ">
                                     4.3 การส่งมอบสินค้าอย่างถูกต้อง ถูกสถานที่ ถูกเวลา (Delivery)
                                 </th>
 
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.3.1 ทำงานเสร็จตรงตามเวลา
@@ -315,7 +290,7 @@ include '../components/layoutHead.php';
 
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.3.2 สามารถผลิตสินค้าได้ตามจำนวนและคุณภาพตามที่ลูกค้าสั่ง
@@ -346,12 +321,12 @@ include '../components/layoutHead.php';
                             <tr
                                 class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
                                 <th scope="row"
-                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    class="px-6 py-4 font-bold text-xl text-gray-900 whitespace-nowrap dark:text-white">
                                     4.4 สภาพแวดล้อมในที่ทำงานปลอดภัยขึ้น (Safety)
                                 </th>
 
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.4.1 อุบัติเหตุในการทำงานลดน้อยลง
@@ -377,7 +352,7 @@ include '../components/layoutHead.php';
 
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.4.2 มีสภาพแวดล้อมที่ปลอดภัยในที่ทำงาน (แสงสว่าง ป้ายเตือน การระบายอากาศ)
@@ -407,12 +382,12 @@ include '../components/layoutHead.php';
                             <tr
                                 class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
                                 <th scope="row"
-                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    class="px-6 py-4  font-bold text-xl text-gray-900 whitespace-nowrap dark:text-white">
                                     4.5 พนักงานมีขวัญกำลังใจที่ดีขึ้น (Moral)
                                 </th>
 
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.5.1 พนักงานลาออกลดน้อยลง
@@ -438,7 +413,7 @@ include '../components/layoutHead.php';
 
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.5.2 พนักงานลาป่วย ลากิจ น้อยลง
@@ -465,7 +440,7 @@ include '../components/layoutHead.php';
                                 </td>
                             </tr>
 
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.5.3 อัตราการมาสายหรือกลับก่อนเวลาลดลง
@@ -491,7 +466,7 @@ include '../components/layoutHead.php';
 
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.5.4 พนักงานมีความทุ่มเทในการทำงาน
@@ -517,7 +492,7 @@ include '../components/layoutHead.php';
 
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.5.5 บรรยากาศความร่วมมือในการทำงาน
@@ -547,12 +522,12 @@ include '../components/layoutHead.php';
                             <tr
                                 class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
                                 <th scope="row"
-                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    class="px-6 py-4  font-bold text-xl text-gray-900 whitespace-nowrap dark:text-white">
                                     4.6 ดำเนินธุรกิจได้โดยไม่กระทบสิ่งแวดล้อม (Environment)
                                 </th>
 
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.6.1 มีการจัดการของเสีย/นำของเสียมาใช้ประโยชน์
@@ -578,7 +553,7 @@ include '../components/layoutHead.php';
 
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.6.2 จัดการสิ่งแวดล้อม และแก้ปัญหาสิ่งแวดล้อมมากขึ้น
@@ -609,14 +584,14 @@ include '../components/layoutHead.php';
                             <tr
                                 class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
                                 <th scope="row"
-                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    class="px-6 py-4  font-bold text-xl text-gray-900 whitespace-nowrap dark:text-white">
                                     4.7 ดำเนินธุรกิจอย่างมีจรรยาบรรณ (Ethics)
                                 </th>
 
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
-                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    class="px-6 py-4 font-medium text-md text-gray-900 whitespace-nowrap dark:text-white">
                                     4.7.1 มีกิจกรรมช่วยเหลือสังคม/ ทำ CSR
                                 </th>
                                 <td class="px-6 py-4 text-center">
@@ -640,7 +615,7 @@ include '../components/layoutHead.php';
 
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-base">
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                     4.7.2 จำนวนข้อร้องเรียนเนื่องมาจากสังคม/ ชุมชนรอบข้างลดลง (หรือไม่มีเลย)
