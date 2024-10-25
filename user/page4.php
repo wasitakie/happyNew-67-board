@@ -418,23 +418,23 @@ include '../components/layoutHead.php';
                                     4.5.1 พนักงานลาออกลดน้อยลง
                                 </th>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-1" value="1" class="p4-4-1">
+                                    <input type="radio" name="p4-5-1" value="1" class="p4-5-1">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-1" value="2" class="p4-4-1">
+                                    <input type="radio" name="p4-5-1" value="2" class="p4-5-1">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-1" value="3" class="p4-4-1">
+                                    <input type="radio" name="p4-5-1" value="3" class="p4-5-1">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-1" value="4" class="p4-4-1">
+                                    <input type="radio" name="p4-5-1" value="4" class="p4-5-1">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-1" value="5" class="p4-4-1">
+                                    <input type="radio" name="p4-5-1" value="5" class="p4-5-1">
 
                                 </td>
                             </tr>
@@ -444,23 +444,23 @@ include '../components/layoutHead.php';
                                     4.5.2 พนักงานลาป่วย ลากิจ น้อยลง
                                 </th>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="1" class="p4-4-2">
+                                    <input type="radio" name="p4-5-2" value="1" class="p4-5-2">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="2" class="p4-4-2">
+                                    <input type="radio" name="p4-5-2" value="2" class="p4-5-2">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="3" class="p4-4-2">
+                                    <input type="radio" name="p4-5-2" value="3" class="p4-5-2">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="4" class="p4-4-2">
+                                    <input type="radio" name="p4-5-2" value="4" class="p4-5-2">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="5" class="p4-4-2">
+                                    <input type="radio" name="p4-5-2" value="5" class="p4-5-2">
 
                                 </td>
                             </tr>
@@ -468,81 +468,205 @@ include '../components/layoutHead.php';
                             <tr>
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    4.5.2 พนักงานลาป่วย ลากิจ น้อยลง
+                                    4.5.3 อัตราการมาสายหรือกลับก่อนเวลาลดลง
                                 </th>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="1" class="p4-4-2">
+                                    <input type="radio" name="p4-5-3" value="1" class="p4-5-3">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="2" class="p4-4-2">
+                                    <input type="radio" name="p4-5-3" value="2" class="p4-5-3">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="3" class="p4-4-2">
+                                    <input type="radio" name="p4-5-3" value="3" class="p4-5-3">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="4" class="p4-4-2">
+                                    <input type="radio" name="p4-5-3" value="4" class="p4-5-3">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="5" class="p4-4-2">
+                                    <input type="radio" name="p4-5-3" value="5" class="p4-5-3">
 
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    4.5.2 พนักงานลาป่วย ลากิจ น้อยลง
+                                    4.5.4 พนักงานมีความทุ่มเทในการทำงาน
                                 </th>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="1" class="p4-4-2">
+                                    <input type="radio" name="p4-5-4" value="1" class="p4-5-4">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="2" class="p4-4-2">
+                                    <input type="radio" name="p4-5-4" value="2" class="p4-5-4">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="3" class="p4-4-2">
+                                    <input type="radio" name="p4-5-4" value="3" class="p4-5-4">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="4" class="p4-4-2">
+                                    <input type="radio" name="p4-5-4" value="4" class="p4-5-4">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="5" class="p4-4-2">
+                                    <input type="radio" name="p4-5-4" value="5" class="p4-5-4">
 
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row"
                                     class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    4.5.2 พนักงานลาป่วย ลากิจ น้อยลง
+                                    4.5.5 บรรยากาศความร่วมมือในการทำงาน
                                 </th>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="1" class="p4-4-2">
+                                    <input type="radio" name="p4-5-5" value="1" class="p4-5-5">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="2" class="p4-4-2">
+                                    <input type="radio" name="p4-5-5" value="2" class="p4-5-5">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="3" class="p4-4-2">
+                                    <input type="radio" name="p4-5-5" value="3" class="p4-5-5">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="4" class="p4-4-2">
+                                    <input type="radio" name="p4-5-5" value="4" class="p4-5-5">
 
                                 </td>
                                 <td class="px-6 py-4 text-center">
-                                    <input type="radio" name="p4-4-2" value="5" class="p4-4-2">
+                                    <input type="radio" name="p4-5-5" value="5" class="p4-5-5">
 
                                 </td>
                             </tr>
+
+                            <tr
+                                class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.6 ดำเนินธุรกิจได้โดยไม่กระทบสิ่งแวดล้อม (Environment)
+                                </th>
+
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.6.1 มีการจัดการของเสีย/นำของเสียมาใช้ประโยชน์
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-6-1" value="1" class="p4-6-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-6-1" value="2" class="p4-6-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-6-1" value="3" class="p4-6-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-6-1" value="4" class="p4-6-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-6-1" value="5" class="p4-6-1">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.6.2 จัดการสิ่งแวดล้อม และแก้ปัญหาสิ่งแวดล้อมมากขึ้น
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-6-2" value="1" class="p4-6-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-6-2" value="2" class="p4-6-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-6-2" value="3" class="p4-6-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-6-2" value="4" class="p4-6-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-6-2" value="5" class="p4-6-2">
+
+                                </td>
+                            </tr>
+
+
+                            <tr
+                                class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.7 ดำเนินธุรกิจอย่างมีจรรยาบรรณ (Ethics)
+                                </th>
+
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.7.1 มีกิจกรรมช่วยเหลือสังคม/ ทำ CSR
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-7-1" value="1" class="p4-7-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-7-1" value="2" class="p4-7-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-7-1" value="3" class="p4-7-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-7-1" value="4" class="p4-7-1">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-7-1" value="5" class="p4-7-1">
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    4.7.2 จำนวนข้อร้องเรียนเนื่องมาจากสังคม/ ชุมชนรอบข้างลดลง (หรือไม่มีเลย)
+                                </th>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-7-2" value="1" class="p4-7-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-7-2" value="2" class="p4-7-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-7-2" value="3" class="p4-7-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-7-2" value="4" class="p4-7-2">
+
+                                </td>
+                                <td class="px-6 py-4 text-center">
+                                    <input type="radio" name="p4-7-2" value="5" class="p4-7-2">
+
+                                </td>
+                            </tr>
+
 
 
                         </tbody>

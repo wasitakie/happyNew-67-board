@@ -13,7 +13,7 @@ include '../components/layoutHead.php';
             <div class="head">คำชี้แจงในการตอบแบบสำรวจ</div>
             <div class="head1">ให้ใส่เครื่องหมาย <i class="fa-solid fa-check"></i> ในช่อง <i
                     class="fa-regular fa-square-full"></i> ทุกข้อที่ท่านเลือก </div>
-            <div class="head2">ส่วนที่ 1: ข้อมูลหน่วยงาน (ข้อคำถามจำนวน 4 ข้อ)</div>
+            <div class="head2">ส่วนที่ 1: ข้อมูลทั่วไปขององค์กร/สถานประกอบการ (ข้อคำถามจำนวน 3 ข้อ)</div>
 
 
 
