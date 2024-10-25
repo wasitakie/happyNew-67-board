@@ -54,7 +54,7 @@ include '../components/layoutHead.php';
                                     <input type="text" id="default-input" name="age"
                                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-2/5 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 age">
                                     <label for="default-input"
-                                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">ปี</label>
+                                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">&nbsp;ปี</label>
                                 </div>
                             </div>
 
@@ -156,7 +156,7 @@ include '../components/layoutHead.php';
 
                 <div class="box mb-3">
                     <div class="titleQ">2.5 ประเด็นท้าทาย (เรื่องยากที่อยากทำ)
-                        ในการบริหารจัดการบุคลากรในองค์กร/สถานประกอบการ (เลือกตอบได้มากกว่า 1ข้อ)</div>
+                        ในการบริหารจัดการบุคลากรในองค์กร/สถานประกอบการ (เลือกตอบได้มากกว่า 1 ข้อ)</div>
                     <div class="questionQ">
                         <div class="sendQ">
                             <div class="flex items-center mb-2">
@@ -232,8 +232,8 @@ include '../components/layoutHead.php';
                                     <br>
                                 </div>
                                 <div class="mb-6">
-                                    <input type="text" id="p2-3t" name="p2-3t"
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-2/5 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 p2-3t">
+                                    <input type="text" id="p2-5t" name="p2-5t"
+                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-2/5 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 p2-5t">
                                 </div>
                             </div>
 
@@ -247,78 +247,78 @@ include '../components/layoutHead.php';
                     <div class="questionQ">
                         <div class="sendQ">
                             <div class="flex items-center mb-2">
-                                <input id="P2-5-1" type="checkbox" value="1" name="p2-5-1"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-5">
-                                <label for="P2-5-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                <input id="P2-6-1" type="checkbox" value="1" name="p2-6-1"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-6">
+                                <label for="P2-6-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                                     1. เกิดการผิดพลาดในการทำงานบ่อยครั้ง (ทำให้ผลิตภัณฑ์เสียหาย/ ด้อยคุณภาพ)</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P2-5-2" type="checkbox" value="2" name="p2-5-2"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-5">
-                                <label for="P2-5-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">2.
+                                <input id="P2-6-2" type="checkbox" value="2" name="p2-6-2"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-6">
+                                <label for="P2-6-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">2.
                                     พนักงานไม่ช่วยประหยัดต้นทุน (ใช้วัสดุหรือทรัพยากรสิ้นเปลือง) </label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P2-5-3" type="checkbox" value="3" name="p2-5-3"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-5">
-                                <label for="P2-5-3" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">3.
+                                <input id="P2-6-3" type="checkbox" value="3" name="p2-6-3"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-6">
+                                <label for="P2-6-3" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">3.
                                     พนักงานมีส่วนก่อให้เกิดความเสียหายในการส่งมอบสินค้า ส่งมอบสินค้าไม่ถูกต้อง/
                                     ส่งผิดสถานที่/ ส่งมอบสินค้าล่าช้า</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P2-5-4" type="checkbox" value="4" name="p2-5-4"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-5">
-                                <label for="P2-5-" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">4.
+                                <input id="P2-6-4" type="checkbox" value="4" name="p2-6-4"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-6">
+                                <label for="P2-6-4" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">4.
                                     พนักงานทำงานขาดความระมัดระวัง ก่อให้เกิดความไม่ปลอดภัย หรือเกิดอุบัติเหตุ</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P2-5-5" type="checkbox" value="5" name="p2-5-5"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-5">
-                                <label for="P2-5-5" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">5.
+                                <input id="P2-6-5" type="checkbox" value="5" name="p2-6-5"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-6">
+                                <label for="P2-6-5" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">5.
                                     พนักงานลาออกบ่อย</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P2-5-6" type="checkbox" value="6" name="p2-5-6"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-5">
-                                <label for="P2-5-6" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">6.
+                                <input id="P2-6-6" type="checkbox" value="6" name="p2-6-6"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-6">
+                                <label for="P2-6-6" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">6.
                                     พนักงานมาสาย หรือ กลับเร็ว</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P2-5-7" type="checkbox" value="7" name="p2-5-7"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-5">
-                                <label for="P2-5-7" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">7.
+                                <input id="P2-6-7" type="checkbox" value="7" name="p2-6-7"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-6">
+                                <label for="P2-6-7" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">7.
                                     บรรยากาศของความขัดแย้งในการทำงาน</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P2-5-8" type="checkbox" value="8" name="p2-5-8"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-5">
-                                <label for="P2-5-8" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">8.
+                                <input id="P2-6-8" type="checkbox" value="8" name="p2-6-8"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-6">
+                                <label for="P2-6-8" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">8.
                                     พนักงานไม่ทุ่มเทในการทำงาน</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P2-5-9" type="checkbox" value="9" name="p2-5-9"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-5">
-                                <label for="P2-5-9" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">9.
+                                <input id="P2-6-9" type="checkbox" value="9" name="p2-6-9"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-6">
+                                <label for="P2-6-9" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">9.
                                     พนักงานเสนอความคิดเห็นต่อหัวหน้างาน</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P2-5-10" type="checkbox" value="10" name="p2-5-10"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-5">
-                                <label for="P2-5-10"
+                                <input id="P2-6-10" type="checkbox" value="10" name="p2-6-10"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-6">
+                                <label for="P2-6-10"
                                     class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">10.
                                     พนักงานมีความคิดสร้างสรรค์ และนำเสนอผลงานสร้างสรรค์</label>
                             </div>
                             <div class="flex items-center mb-2">
-                                <input id="P2-5-11" type="checkbox" value="11" name="p2-5-11"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-5">
-                                <label for="P2-5-11"
+                                <input id="P2-6-11" type="checkbox" value="11" name="p2-6-11"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-6">
+                                <label for="P2-6-11"
                                     class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">11.
                                     การบริหารจัดการเวลา </label>
                             </div>
                             <div class="">
                                 <div class="flex items-center mb-2">
-                                    <input id="P2-5-12" type="checkbox" value="12" name="p2-5-12"
-                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-5c">
+                                    <input id="P2-6-12" type="checkbox" value="12" name="p2-6-12"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 p2-6c">
                                     <label for="P1-2-12"
                                         class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">12.
                                         อื่น ๆ ระบุ
@@ -326,8 +326,8 @@ include '../components/layoutHead.php';
                                     <br>
                                 </div>
                                 <div class="mb-6">
-                                    <input type="text" id="p2-3t" name="p2-3t"
-                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-2/5 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 p2-3t">
+                                    <input type="text" id="p2-6t" name="p2-6t"
+                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-2/5 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 p2-6t">
                                 </div>
                             </div>
 
